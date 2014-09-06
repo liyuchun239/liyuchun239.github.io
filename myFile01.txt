@@ -1,2 +1,4 @@
 How?
 NUAA
+
+今天学习了一下线性列表(linear list),照抄一下C primer plus书上的一个实例.在文件list.c,list.h,films.c中.后面再找找教材学习一下数据结构和算法,希望能达到有所了解的程度.
