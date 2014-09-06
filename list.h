@@ -1,3 +1,7 @@
+/*
+ FROM C PRIMER PLUS(第五版)中文版, Page 495. LYC20140906
+*/
+
 #ifndef LIST_H_
 #define LIST_H_
 
