@@ -35,7 +35,7 @@ void GaussianElimination(double *Coefficient, double *Yrhs, double *Xsolution, i
 		maxElement = *(CoeffCopy + i*CDimension + i);
 		maxIndex = i;
 		for(j=i+1; j!=CDimension; ++j){
-			if(*(CoeffCopy + j*CDimension + i) > *(CoeffCopy + i*CDimension + i)){
+			if(*(CoeffCopy + j*CDimension + i) > maxElement){
 				maxElement = *(CoeffCopy + j*CDimension + i);
 				maxIndex = j;
 			}
